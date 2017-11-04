@@ -1,3 +1,0 @@
-Question 1
-
-Yes. I think it should be considered as a bioinformatics area. The modeling of population of organisms deals with the dynamics of species populations and how these populations interact with the environment.The must be a lot of data from different species and the complex crosstalks between the species and the environment. It is a study needs temporal information of population size of different speices over time and space. The relationship of different species and the interaction of envrionment is a good and hot study area of bioinformatics. This filed provides interesting problems for mathematicians and statisticians who work in population dynamics. The analysis of complex dynamics of different populations needs the expertise of bioinformatics.
