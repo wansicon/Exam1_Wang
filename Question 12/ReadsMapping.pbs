@@ -1,0 +1,55 @@
+####  PBS preamble
+
+#PBS -N blast-example-2
+#PBS -V
+
+# Change the number of cores (ppn=4), amount of memory, and walltime
+# based on what your job will require:
+#PBS -l nodes=1:ppn=4,pmem=8gb,walltime=10:00:00
+
+#PBS -A eeb416f17_flux
+#PBS -q flux
+#PBS -l qos=flux
+
+#PBS -m abe
+#PBS -j oe
+
+####  End PBS preamble
+
+#  Show list of CPUs you ran on, if you're running under PBS
+if [ -n "$PBS_JOBID" ]; then echo -n "Running on nodes/cores: "; qstat -n $PBS_JOBID | tail -1; fi
+
+#  Change to the directory you submitted from
+if [ -n "$PBS_O_WORKDIR" ]; then cd $PBS_O_WORKDIR; fi; echo -n "Current working directory: "; pwd
+echo
+
+#  Echo job script commands as they are executed
+
+#  Set your max threads here
+export OMP_NUM_THREADS=${PBS_NUM_PPN:-1}
+
+#  Put your job script commands here:
+
+####New gene expression mapping script
+
+## Index the transcriptome
+
+bwa index -a is IZNU_assembly.fa > bwa_index.stdout 2> bwa_index.stderr
+
+## Align read set to the transcriptome
+
+bwa aln -t4 IZNU_assembly.fa IZNU-read.fq > IZNU_Mapped.sai 2 > IZNU_Mapped.stderr
+
+## Produce the .sam alignment file
+
+bwa sampe IZNU_assembly.fa IZNU_Mapped.sai IZNU-read.fq > IZNU.sam 2> IZNU_sampe.stderr
+
+## Convert the sam file to the bam file and cound the mapped reads
+
+samtools view -b IZNU.sam > IZNU.bam
+samtools flagstat IZNU.bam
+
+## To estimate read counts
+samtools sort -@ 4 -m 8G output.filter.bam -0 output.filter.sorted.bam
+samtools index output.filter.sorted.bam
+samtools idxstats output.filter.sorted.bam > output.counts.txt
