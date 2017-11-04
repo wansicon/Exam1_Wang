@@ -1,1 +1,20 @@
+Question 8
+8-1. 
+Yes. There is a website covering the Glanville fritillary butterfly genomic project Link: https://www.helsinki.fi/en/researchgroups/metapopulation-research-centre/glanville-fritillary-butterfly-genome-project. Helsinki University did the genome projrct for Glanville fritillary butterfly.
 
+Professor Phil Pollett https://people.smp.uq.edu.au/PhilipPollett/
+
+And professor Atte Moilanen developed a software called SPOMSIM, which is also used to calculate the stochastic patch occupancy models of metapopulation dynamics.
+
+8-2
+LiSs (Linkage map Superscaffolder) for superscaffolding. It is unpublished,and I think this is what they are now working on.
+
+8-3
+They have developed many softwares. SPOMSIM was developed to calculate the connectivity of habitat patches. Thus different patches could be divided into  sub-networks.It is a software for stochastic  patch occupancy models of metapopulation dynamics. Lep-MAP software for constructing accurate linkage maps. MIP Scaffolder for genome scaffolding. Coral and HybridSHREC for read error correction.  PANNZER for functional annotation.  EPT and SANS for orthology prediction.
+
+8-4
+Yes. I searched Glanville fritillary butterfly under Bioproject at the NCBI website and found relavant information.
+Here is the link: https://www.ncbi.nlm.nih.gov/bioproject/208409
+
+8-5
+I searched on the website and found one technology Dr.George Church from Harvard University developed called Polymerase colony (polony). Polony technology amplifies multiple individual DNA molecules within a thin acrylamide gel attached to a microscope slide. Each DNA molecule included in the reaction produces an immobilized colony of double-stranded DNA. Polony technology can determine the two singlenucleotide polymorphisms (SNPs) by coamplifying distally located targets on a single chromosomal fragment. This is a microarray independent technology.
