@@ -1,3 +1,5 @@
+Question 3
+
 The E-value decreases exponentially as the score of the match increases. The lower the E-value, or the closer it is to zero, the more "significant" the match is. In this case, the evalue is 3.4 e-178, which is extremely close to zero and is much lower than 1e -50 (One threshold value given in the lecture notes). This means that it has extremly high confidence, the database results is homologous to the one we searched in the NCBI database.
 
 Reference:
