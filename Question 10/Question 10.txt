@@ -1,0 +1,17 @@
+Question 10
+
+10-1:
+
+awk '/^>/{print ">" ++i; next}{print}'< Homo_sapiens.GRCh38.cds.all.fa >Homo_sapiens.GRCh38.cds.all_sorted.fa
+
+10-2:
+
+grep -v "^#" Homo_sapiens.GRCh38.82.abinitio.gtf | cut -f1,3,4,5 > Homo_sapiens.GRCh38.82.abinitio.bed
+
+10-3:
+
+grep -v "transcript" Homo_sapiens.GRCh38.82.abinitio.gtf > Homo_sapiens.GRCh38.82.abinitio.exon_only.gtf 
+grep -v "#" Homo_sapiens.GRCh38.82.abinitio.exon_only.gtf > Homo_sapiens.GRCh38.82.abinitio.exon.gtf
+
+grep -v "exon" Homo_sapiens.GRCh38.82.abinitio.gtf > Homo_sapiens.GRCh38.82.abinitio.transcript_only.gtf
+grep -v "#" Homo_sapiens.GRCh38.82.abinitio.transcript_only.gtf > Homo_sapiens.GRCh38.82.abinitio.transcript.gtf
