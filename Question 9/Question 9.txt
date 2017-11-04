@@ -1,0 +1,10 @@
+Question 9
+
+1. 101933 sequences 
+Unix Command: grep -c ">" Homo_sapiens.GRCh38.cds.all.fa
+
+2. 2066758 lines
+Unix Command: wc -l Homo_sapiens.GRCh38.cds.all.fa
+
+3. Yes. There are 2950 "AGATCGG" in the files
+Unix Comaand: grep -c "AGATCGG" Homo_sapiens.GRCh38.cds.all.fa
