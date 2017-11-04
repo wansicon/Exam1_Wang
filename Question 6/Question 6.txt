@@ -1,0 +1,23 @@
+Question 6
+
+6-1
+Accession number: AFV73403.1  Source:https://www.ncbi.nlm.nih.gov/protein/AFV73403.1
+
+6-2
+BLASTP
+
+6-3
+I set the  maximum number of aligned sequences to display to be 500. And I got 707 hits from the taxonomy reports.
+
+6-4
+I saw 126 organisms in the taxonomy reports (I exclude the Jatropha curcas itself).And at least 80 of them have the E-value below 1e-50, whcih means they are potential homologs from different species.
+
+6-5
+Accession number: NP_001295712.1   E-value:0      Specie:Jatropha curcas         313aa
+Accession number: KDP41681.1       E-value:0      Specie:Jatropha curcas         313aa
+Accession number: XP_021678755.1   E-value:0      Specie:Hevea brasiliensis      319aa
+Accession number: XP_021601648.1   E-value:0      Specie:Manihot esculenta       315aa
+Accession number: XP_021613222.1   E-value:2e-161 Specie:Manihot esculenta       289aa
+Accession number: XP_002302428.2   E-value:1e-159 Specie:Populus trichocarpa     321aa
+Accession number: XP_021657048.1   E-value:3e-157 Specie:Hevea brasiliensis      288aa
+Accession number: XP_021903563.1   E-value:6e-157 Species:Carica papaya          315aa
