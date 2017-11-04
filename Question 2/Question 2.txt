@@ -1,0 +1,3 @@
+Question 2
+
+False. Not all sequece data at NCBI are peer-reviewed. Ref-Seq data are peer reviews sequence and is very reliable. The conclusion in Quesion 2 is too absolute.
