@@ -1,0 +1,23 @@
+Question 7
+
+Accession number: JX569771.1  
+Reference: https://www.ncbi.nlm.nih.gov/nuccore/410519445
+
+7-1
+BLASTN
+
+7-2
+I set the  maximum number of aligned sequences to display to be 500. And I got 707 hits from the taxonomy reports.
+
+7-3
+I saw 20 organisms in the taxonomy reports (I exclude the Jatropha curcas itself).And 20 of them have the E-value below 1e-50, whcih means they are potential homologs from different species.
+
+7-4
+NM_001308783.1   E-value:0      Specie:Jatropha curcas         1280bp
+KM034622.1       E-value:0      Specie:Jatropha curcas         942bp
+XM_021823063.1   E-value:0      Specie:Hevea brasiliensis      1543bp
+XM_021745956.1   E-value:0      Specie:Manihot esculenta       1470bp
+XM_021801356.1   E-value:0	Specie:Hevea brasiliensis      1560bp
+XM_021757530.1   E-value:0      Specie:Manihot esculenta       1300bp
+XM_011018849.1   E-value:2e-127 Specie:Populus euphratica      1312 bp
+
