@@ -1,0 +1,15 @@
+Question 5
+
+For eukaryotes: 10^8-10^11 base pairs per haploid genome 
+
+Yeast or fungi:10^7-10^8
+Plants: 10^8 (Arabidopsis) -10^11 (Lily)
+Insects(Drosophila):10^8-10^10
+Amphibians: 10^9 (Toad)-10^11(Salamander)
+Birds and chicker: around 10^9
+Human and mammals: 10^9-10^10
+
+For prokaryotes: 10^6-10^7 base pairs per haploid genome (E.coli, Mycoplasma et.al)
+
+Reference:
+https://www.ncbi.nlm.nih.gov/books/NBK9846/figure/A602/?report=objectonly
